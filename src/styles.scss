@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  min-height: calc(100vh - 120px); /* Учитываем высоту navbar и footer */
+  padding: 1rem;
+}

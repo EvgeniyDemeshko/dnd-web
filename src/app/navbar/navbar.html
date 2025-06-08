@@ -1,0 +1,9 @@
+<nav class="navbar" [ngClass]="{'hidden': !isNavbarVisible}">
+  <div class="logo">
+    <a routerLink="/">MyApp</a>
+  </div>
+  <ul class="nav-links">
+    <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+    <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+  </ul>
+</nav>
